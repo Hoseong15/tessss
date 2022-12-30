@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Gamja Flower', cursive;
+  font-family: 'Gugi', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Teko', sans-serif;
+}
+li{list-style: none;}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.visually-hidden{display: none;}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #333;
+}
+
+.logo img{
+  width: 40px;
+  margin-left: 20px;
+}
+
+.gnb-list{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.gnb-item a{
+  font-weight: 700;
+}
+
+.background{
+  height: 600px;
+ background-image: url('../images/Wkwmd.jpg');
+ /* background-repeat: no-repeat; */
+ background-position: center;
+ /* background-size: cover; */
+}
+
+.front-txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  color: #fff;
+}
+
+.fornt-title{
+  font-size: 36px;
+}
+
+.front-content{
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.front-btn{
+  border-radius: 10px;
+  padding:10px 20px;
+  margin-top: 30px;
+  font-weight: 700;
+  border: none;
+}
+.top{
+  margin-top: -130px;
+}
+
+.second-txt{
+  width: 500px;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #666;
+}
+
+.second-txt p{
+  margin-top: 30px;
+}
+
+.post-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.post-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 5px 5px 10px #000;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 40px;
+}
+
+.post-card:last-child{
+  margin-right: 0;
+}
+
+.post-card:first-child{
+  margin-right: 40px;
+}
+
+.post-card-txt{
+  margin-top: 30px;
+}
+
+footer{
+  background-color: #333;
+  margin-top: 40px;
+  padding: 20px 0;
+  
+}
+
+.global-footer{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.global-footer h3{
+  color: #fff;
+}
+
+.footer-list{
+  display: flex;
+}
+
+.footer-item{
+  margin-right: 20px;
+}
+.footer-item:last-child{
+  margin-right: 0px;
+}
+
+.gnb-item a{
+  font-weight: 700;
+  transition: all 300ms ease-in-out;
+}
+.gnb-item:hover a{
+  color: dodgerblue;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .background{
+   background-image: url(../images/KakaoTalk_20221230_093408030.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  nav{background-color: lightcyan;}
+
+  a{color: #000;}
+  .front-txt{
+   font-size: 25px;
+   color: #fff;
+  }
+
+  .second-txt{
+    width: 600px;
+    background-color: lightcyan;
+    color: rgb(65, 65, 109);
+  }
+
+
+  .post-box{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .post-card{
+    width: 500px;
+    height: 300px;
+    background-color: lightcyan;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
+  .post-card:first-child{
+    margin-right: 20px;
+  }
+
+  .post-card:last-child{margin-right: 20px;}
+
+  footer{background-color: lightcyan;}
+
+  .global-footer h3{color: #000;}
+
+  .footer-item a{font-weight: 700;} 
+}
+  
